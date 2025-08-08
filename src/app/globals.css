@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-poppins);
+}
+
+body {
+  @apply font-sans;
+}
