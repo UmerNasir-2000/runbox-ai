@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import type { Metadata } from "next";
+import type { PropsWithChildren } from "react";
 import "./globals.css";
-import { PropsWithChildren } from "react";
 
 const poppins = Poppins({
   variable: "--font-poppins",
